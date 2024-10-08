@@ -1,0 +1,4 @@
+REM Set FTP server details
+set SERVER=ftp://<serverip>
+set USERNAME=<username>
+set PASSWORD=<password>
