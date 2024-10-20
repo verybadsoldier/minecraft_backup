@@ -2,3 +2,8 @@ REM Set FTP server details
 set SERVER=ftp://<serverip>
 set USERNAME=<username>
 set PASSWORD=<password>
+
+set WARN_SERVER_STOP=1
+set USE_DATETIME_FILENAME=1
+set USE_STORAGE_DIR=0
+set STORAGE_DIR=
