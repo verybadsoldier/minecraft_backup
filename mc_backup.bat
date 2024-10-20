@@ -1,6 +1,6 @@
 @echo off
 
-call config.bat
+call %~dp0/config.bat
 
 if %WARN_SERVER_STOP% == 1 (
   set /p "stopped=Ist Server heruntergefahren? (YES eingeben, wenn ja): "
