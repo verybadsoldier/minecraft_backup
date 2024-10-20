@@ -38,7 +38,7 @@ wget -X %EXCLUDE_DIRS% --regex-type pcre --reject-regex %EXCLUDE_REGEX% --no-ver
 set TARGET_FILENAME=Minecraft_Backup
 
 
-
+echo Creating archive file %LOCAL_DIR%.zip
 tar.exe -acf %LOCAL_DIR%.zip -C %LOCAL_DIR% *
 
 rmdir /s /q %LOCAL_DIR%
